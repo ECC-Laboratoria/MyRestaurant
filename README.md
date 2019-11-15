@@ -12,17 +12,17 @@
 
 ![icon](images/logo.png)
 
-### 1. Overview del proyecto 
+## 1. Overview del proyecto 
 
-### 2. Objetivos del proyecto
+## 2. Objetivos del proyecto
 
-### 3. Consideraciones generales y entregables
+## 3. Consideraciones generales y entregables
 
 De nuevo, super super importante que realicen los siguientes pasos antes de comenzar a codificar: 
 
-### 4. Checklist 
+## 4. Checklist 
 
-### 5. Referencias y lecturas complementarias 
+## 5. Referencias y lecturas complementarias 
 
 - **Introducción al Desarrollo de Apps**. [https://books.apple.com/mx/book/introducci%C3%B3n-al-desarrollo-de-apps-con-swift/id1216831475](https://books.apple.com/mx/book/introducción-al-desarrollo-de-apps-con-swift/id1216831475)
 - **App Development with Swift.** https://books.apple.com/us/book/app-development-with-swift/id1219117996
