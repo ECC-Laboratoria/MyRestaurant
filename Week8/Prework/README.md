@@ -40,6 +40,3 @@ Para las preguntas de **Swift**, tienes dos opciones:
 
 1. Realiza todos los ejemplos de [closures](https://www.hackingwithswift.com/sixty/6/1/creating-basic-closures). 
 2. Realiza todos los ejemplos de [opcionales](https://www.hackingwithswift.com/sixty/10/1/handling-missing-data). 
-
-
-
