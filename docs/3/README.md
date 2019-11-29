@@ -6,14 +6,27 @@ Hasta ahora haz creado la interfaz y los modelos para poder empezar a construir 
 
 Crea un nuevo archivo de Swift llamado ```MenuController.swift``` y crea una clase llamada ```MenuController``` que contendrá lo siguiente: 
 
-* Una constante llamada ```baseURL: URL``` usando el inicializador que acepte un string. 
-
-  * ```string```: **http://localhost:8090/**
+* Una constante llamada ```baseURL: URL``` con **http://localhost:8090/** como string. 
 
 * Como lo mencionamos en la sección anterior, necesitaremos un método para cada request: 
 
   1. ```fetchCategories```: GET 
-  2. ```fetchMenuItems```: GET 
-  3. ```submitOrder```: POST
-
   
+     ```swift
+   func fetchCategories(completion: @escaping ([String?]) -> Void) {}
+     ```
+  
+  2. ```fetchMenuItems```: GET 
+  
+     ```swift
+     func fetchMenuItems(forCategory categoryName:String, completion: @escaping ([MenuItem?]) -> Void) {}
+     ```
+  
+  3. ```submitOrder```: POST
+  
+     ```swift
+     func submitOrder(forMenuIDs menuIDs: [Int], completion: ([Int]?) -> Void) {}
+     ```
+  
+
+Cada uno de los métodos anteriores necesitará un **baseURL** y la modificará dependiendo de su función. 
