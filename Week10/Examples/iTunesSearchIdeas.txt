@@ -1,0 +1,43 @@
+Lluvia de ideas: 
+
+- Revisar el código que nos dan 
+- Identificar qué nos hace falta
+- Checar endpoints
+
+- Query: mediaType + searchTerm + endpoint
+- UITableViewController: mostrar
+
+¿Qué tenemos?
+Propiedades:
+	-outlets del segmentedcontrol y del searchbar
+	-arreglo para obtener el mediatype
+	-arreglo de items: [String]
+Métodos
+	-métodos del tableviewcontroller
+		-configureCell
+	-método del searchbar
+		-fetchMatchingItems
+	-segmentedControl
+		-@IBAction filterOptionUpdated
+
+Arquitectura de nuestra app: MVC
+
+Modelo:
+- StoreItem
+- StoreItemList
+	- results:[StoreItem]
+	- storeItemCount: Int
+
+Vista:
+- Construir interfaz -> ya está
+- Agregar pantalla para mostrar detalles de resultados
+
+Controlador:
+- StoreItemNetworkDataController //requests
+
+
+Requerimientos:
+1. Debo poder buscar Películas, Música, Apps y Libros de cualquier cosa que se me ocurra. 
+2. Celda: imagen, título, subtítulo
+
+ 
